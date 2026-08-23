@@ -1,27 +1,38 @@
-# Python
+# Dataset — jangan dimasukkan ke repo
+dataset/
+data/
+
+# Model checkpoints dan weights
+checkpoints/
+*.h5
+*.keras
+*.pb
+
+# Hasil eksperimen (gambar dan metrics)
+results/
+
+# Logs
+logs/
+*.log
+
+# Python cache
 __pycache__/
 *.py[cod]
-*.so
-.venv/
-venv/
+*.pyo
+.pytest_cache/
 
 # Jupyter
 .ipynb_checkpoints/
+*.ipynb_checkpoints
 
 # Environment
 .env
-
-# Logs
-*.log
-
-# Model artifacts
-checkpoints/*.h5
-checkpoints/*.keras
-checkpoints/*.weights.h5
-results/*.png
-results/*.json
-results/*.csv
+venv/
+.venv/
 
 # OS
 .DS_Store
 Thumbs.db
+
+# Google Colab artifacts
+*.ipynb (jangan commit notebook dengan output besar)
