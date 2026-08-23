@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment
+.env
+
+# Logs
+*.log
+
+# Model artifacts
+checkpoints/*.h5
+checkpoints/*.keras
+checkpoints/*.weights.h5
+results/*.png
+results/*.json
+results/*.csv
+
+# OS
+.DS_Store
+Thumbs.db
